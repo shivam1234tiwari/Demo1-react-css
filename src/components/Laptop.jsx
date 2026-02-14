@@ -20,6 +20,7 @@ const Laptop = ({ brandName, model, price }) => {
     //     borderRadius:'2px'
     //   }}
     // style={obj}
+    // Enternal styling
     className="div"
     >
       <h2>Brandname {brandName}</h2>

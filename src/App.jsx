@@ -5,6 +5,7 @@ import Person2 from "./components/Person2";
 import Person3 from "./components/Person3";
 import Laptop from "./components/Laptop";
 import './App.css'
+import Events from "./components/Events";
 const App = () => {
   return (
     <>
@@ -23,9 +24,12 @@ const App = () => {
       {/* <Person3 name="vijay" age={20} panCard={true}/> */}
     </div>
     <div>
-      <Laptop brandName="hp"model="probook"price={15000}/>
+      {/* <Laptop brandName="hp"model="probook"price={15000}/>
        <Laptop brandName="asus"model="asus"price={15000}/>
-        <Laptop brandName="dell"model="dell"price={15000}/>
+        <Laptop brandName="dell"model="dell"price={15000}/> */}
+    </div>
+    <div>
+      {/* <Events/> */}
     </div>
     </>
   );
